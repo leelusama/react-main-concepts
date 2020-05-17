@@ -12,7 +12,7 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      posts: mockPosts,
+      posts: [...mockPosts, ...mockPosts],
     };
   }
 
@@ -40,6 +40,17 @@ class App extends React.Component {
                 </li>
               ))}
             </ul>
+          </section>
+          <section className='post-form'>
+            <h2>Создать пост</h2>
+            <form>
+              <p>
+                <input type='text' placeholder='title' />
+              </p>
+              <p>
+                <textarea rows='5'></textarea>
+              </p>
+            </form>
           </section>
         </main>
         <footer></footer>

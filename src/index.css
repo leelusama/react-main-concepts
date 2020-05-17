@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  margin-bottom: 210px;
+  padding: 0;
+}
+
 .toggleButton {
   color: white;
   font-weight: 700;
@@ -30,4 +36,25 @@
 .list li:hover {
   background-color: ivory;
   cursor: pointer;
+}
+
+.post-form {
+  background-color: white;
+  border: 5px solid black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 200px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  box-sizing: border-box;
 }

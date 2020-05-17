@@ -1,28 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function formatName(user) {
-  const { firstName, lastName } = user;
-  return `${firstName} ${lastName}`;
-}
+const JSXelement = <h1 className='greeting'>Привет, мир!</h1>;
 
-function getGreeting(user) {
-  if (user) {
-    return <h2>Здравствуй, {formatName(user)}.</h2>;
-  }
-  return <h2>Привет, незнакомец!</h2>;
-}
-
-const user = {
-  firstName: 'Марья',
-  lastName: 'Моревна',
-};
-
-const element = (
-  <div>
-    {getGreeting(user)}
-    {getGreeting()}
-  </div>
+const element = React.createElement(
+  'h1',
+  { className: 'greeting' },
+  'Привет, мир!'
 );
 
 ReactDOM.render(element, document.getElementById('root'));

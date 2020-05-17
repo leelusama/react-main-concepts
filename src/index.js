@@ -6,11 +6,23 @@ function formatName(user) {
   return `${firstName} ${lastName}`;
 }
 
+function getGreeting(user) {
+  if (user) {
+    return <h2>Здравствуй, {formatName(user)}.</h2>;
+  }
+  return <h2>Привет, незнакомец!</h2>;
+}
+
 const user = {
   firstName: 'Марья',
   lastName: 'Моревна',
 };
 
-const element = <h1>Здравствуй, {formatName(user)}!</h1>;
+const element = (
+  <div>
+    {getGreeting(user)}
+    {getGreeting()}
+  </div>
+);
 
 ReactDOM.render(element, document.getElementById('root'));

@@ -7,11 +7,12 @@ function formatDate(date) {
 }
 
 function Avatar(props) {
+  const { avatarUrl, name } = props.user;
   return (
     <img
       className='Avatar'
-      src={props.user.avatarUrl}
-      alt={props.user.name}
+      src={avatarUrl}
+      alt={name}
       width='100'
       height='100'
     />
@@ -19,20 +20,22 @@ function Avatar(props) {
 }
 
 function UserInfo(props) {
+  const { user } = props;
   return (
     <div className='UserInfo'>
-      <Avatar user={props.user} />
-      <div className='UserInfo-Name'>{props.user.name}</div>
+      <Avatar user={user} />
+      <div className='UserInfo-Name'>{user.name}</div>
     </div>
   );
 }
 
 function Comment(props) {
+  const { user, text, date } = props.comment;
   return (
     <div className='Comment'>
-      <UserInfo user={props.comment.user} />
-      <div className='Comment-text'>{props.comment.text}</div>
-      <div className='Comment-date'>{formatDate(props.comment.date)}</div>
+      <UserInfo user={user} />
+      <div className='Comment-text'>{text}</div>
+      <div className='Comment-date'>{formatDate(date)}</div>
     </div>
   );
 }

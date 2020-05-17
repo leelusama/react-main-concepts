@@ -92,7 +92,7 @@ class ToDoList extends React.Component {
               <th>created at</th>
             </tr>
             {this.state.list.map((todo, index) => (
-              <ToDo key={index} {...todo} />
+              <ToDo key={todo.id} {...todo} />
             ))}
           </tbody>
         </table>

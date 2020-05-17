@@ -11,6 +11,10 @@ function logger(mode) {
 
 const log = logger('dev');
 
+function FormattedDate({ date }) {
+  return <span>{date.toLocaleTimeString()}</span>;
+}
+
 class Clock extends React.Component {
   constructor(props) {
     log('Clock constructor');
@@ -41,10 +45,13 @@ class Clock extends React.Component {
 
   render() {
     log('Clock render');
+    const { date } = this.state;
     return (
       <div>
         <h1>Часы</h1>
-        <h2>Текущее время: {this.state.date.toLocaleTimeString()}.</h2>
+        <h2>
+          Текущее время: <FormattedDate date={date} />.
+        </h2>
       </div>
     );
   }

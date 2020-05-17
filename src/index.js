@@ -2,9 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function Welcome(props) {
-  return <h1>Welcome, {props.name}!</h1>;
+  return <h2>Привет, {props.name}!</h2>;
 }
 
-const element = <Welcome name='Alice' />;
+function App() {
+  return (
+    <div>
+      <Welcome name='Алиса' />
+      <Welcome name='Базилио' />
+      <Welcome name='Буратино' />
+    </div>
+  );
+}
 
-ReactDOM.render(element, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

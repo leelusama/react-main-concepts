@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const JSXelement = <h1 className='greeting'>Привет, мир!</h1>;
+function Welcome(props) {
+  return <h1>Welcome, {props.name}!</h1>;
+}
 
-const element = React.createElement(
-  'h1',
-  { className: 'greeting' },
-  'Привет, мир!'
-);
+const element = <Welcome name='Alice' />;
 
 ReactDOM.render(element, document.getElementById('root'));

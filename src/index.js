@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
 function logger(mode) {
   return function () {
@@ -11,48 +12,35 @@ function logger(mode) {
 
 const log = logger('dev');
 
-function FormattedDate({ date }) {
-  return <span>{date.toLocaleTimeString()}</span>;
-}
-
-class Clock extends React.Component {
+class Toggle extends React.Component {
   constructor(props) {
-    log('Clock constructor');
     super(props);
 
     this.state = {
-      date: new Date(),
+      isToggleOn: false,
     };
+
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  componentDidMount() {
-    log('Clock componentDidMount');
-    this.timerID = setInterval(() => {
-      this.tick();
-    }, 1000);
-  }
-
-  componentWillUnmount() {
-    log('Clock componentWillUnmount');
-    clearInterval(this.timerID);
-  }
-
-  tick() {
-    this.setState({
-      date: new Date(),
-    });
+  handleClick() {
+    this.setState((state) => ({
+      isToggleOn: !state.isToggleOn,
+    }));
   }
 
   render() {
-    log('Clock render');
-    const { date } = this.state;
+    const classes = ['toggleButton'];
+    this.state.isToggleOn
+      ? classes.push('buttonOn')
+      : classes.push('buttonOff');
+
+    const className = classes.join(' ');
+
     return (
-      <div>
-        <h1>Часы</h1>
-        <h2>
-          Текущее время: <FormattedDate date={date} />.
-        </h2>
-      </div>
+      <button className={className} type='button' onClick={this.handleClick}>
+        {this.state.isToggleOn ? 'Вкл.' : 'Выкл.'}
+      </button>
     );
   }
 }
@@ -61,7 +49,7 @@ function App() {
   log('App');
   return (
     <React.Fragment>
-      <Clock />
+      <Toggle />
     </React.Fragment>
   );
 }

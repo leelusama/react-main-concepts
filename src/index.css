@@ -1,0 +1,13 @@
+.toggleButton {
+  color: white;
+  font-weight: 700;
+  border: 2px solid black;
+}
+
+.buttonOn {
+  background-color: green;
+}
+
+.buttonOff {
+  background-color: red;
+}

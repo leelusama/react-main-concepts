@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h1>Привет, мир!</h1>, document.getElementById('root'));
+const element = <h1>Привет, JSX!</h1>;
+
+ReactDOM.render(element, document.getElementById('root'));

@@ -11,3 +11,23 @@
 .buttonOff {
   background-color: red;
 }
+
+.list {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.list li {
+  margin: 0;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.list li:hover {
+  background-color: ivory;
+  cursor: pointer;
+}

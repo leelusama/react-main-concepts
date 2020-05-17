@@ -45,11 +45,39 @@ class Toggle extends React.Component {
   }
 }
 
+class List extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      list: ['banana', 'orange', 'apple'],
+    };
+  }
+
+  handleClickListItem(item, e) {
+    console.log(e.target.innerText, item);
+  }
+
+  render() {
+    const list = this.state.list.map((item) => (
+      <li onClick={this.handleClickListItem.bind(this, item)} key={item}>
+        {item}
+      </li>
+    ));
+    return (
+      <div>
+        <ul className='list'>{list}</ul>
+      </div>
+    );
+  }
+}
+
 function App() {
   log('App');
   return (
     <React.Fragment>
       <Toggle />
+      <List />
     </React.Fragment>
   );
 }

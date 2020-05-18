@@ -1,0 +1,716 @@
+{
+  "groups": [
+    "Dolore reprehenderit",
+    "Consectetur deserunt",
+    "Officia qui",
+    "Labore tempor",
+    "Veniam elit",
+    "Proident esse",
+    "Aliquip Lorem",
+    "Exercitation do",
+    "Excepteur anim",
+    "Commodo sit"
+  ],
+  "products": [
+    {
+      "_id": "5ec2b4c8fc1bbf85e9f387d6",
+      "name": "Excepteur",
+      "stocked": false,
+      "price": "$808.98",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c8da7dad6dd59b6f02",
+      "name": "Fugiat",
+      "stocked": true,
+      "price": "$2,756.21",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c89b03a2cf44d273f3",
+      "name": "Exercitation",
+      "stocked": true,
+      "price": "$2,878.97",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c896c8604eff4b489f",
+      "name": "Proident",
+      "stocked": true,
+      "price": "$1,239.73",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c8f01328de29cfebad",
+      "name": "Aliquip",
+      "stocked": false,
+      "price": "$241.83",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c844f05ab91190a747",
+      "name": "Officia",
+      "stocked": true,
+      "price": "$2,705.21",
+      "category": "Dolore reprehenderit"
+    },
+    {
+      "_id": "5ec2b4c8af1ca87e2a3f8ccb",
+      "name": "Laborum",
+      "stocked": false,
+      "price": "$3,824.39",
+      "category": "Aliquip Lorem"
+    },
+    {
+      "_id": "5ec2b4c842c1d2da7d61b45a",
+      "name": "Veniam",
+      "stocked": false,
+      "price": "$109.75",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c8e549c65055010a1e",
+      "name": "Mollit",
+      "stocked": false,
+      "price": "$3,524.99",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c87fc1a577231488a5",
+      "name": "Labore",
+      "stocked": false,
+      "price": "$3,082.81",
+      "category": "Aliquip Lorem"
+    },
+    {
+      "_id": "5ec2b4c8cd78df4eb669bfba",
+      "name": "Cillum",
+      "stocked": false,
+      "price": "$3,772.52",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c81a4374616871ac53",
+      "name": "Dolore",
+      "stocked": true,
+      "price": "$808.56",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c850748de89eabe4f0",
+      "name": "Laborum",
+      "stocked": false,
+      "price": "$1,383.20",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c878fa99f837286d36",
+      "name": "Laborum",
+      "stocked": true,
+      "price": "$2,023.04",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c85a755f3cc5f6a511",
+      "name": "Ullamco",
+      "stocked": false,
+      "price": "$1.87",
+      "category": "Aliquip Lorem"
+    },
+    {
+      "_id": "5ec2b4c89146f18cf83f16a8",
+      "name": "Mollit",
+      "stocked": true,
+      "price": "$2,480.77",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c8843ade52b6b23097",
+      "name": "Aliqua",
+      "stocked": true,
+      "price": "$2,117.53",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c8726c249e4b79301a",
+      "name": "Consequat",
+      "stocked": false,
+      "price": "$1,853.57",
+      "category": "Proident esse"
+    },
+    {
+      "_id": "5ec2b4c8ca958a235ac1bb12",
+      "name": "Officia",
+      "stocked": false,
+      "price": "$921.78",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c8b8e872ad073eed80",
+      "name": "Cillum",
+      "stocked": false,
+      "price": "$952.68",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c8711d75a305c9f427",
+      "name": "Laborum",
+      "stocked": true,
+      "price": "$25.38",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c804e180d46226ba64",
+      "name": "Laboris",
+      "stocked": true,
+      "price": "$421.10",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c8422dfa03ef9bb02a",
+      "name": "Veniam",
+      "stocked": true,
+      "price": "$2,415.83",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c8fb9b4c6c199463f4",
+      "name": "Laboris",
+      "stocked": false,
+      "price": "$3,127.54",
+      "category": "Aliquip Lorem"
+    },
+    {
+      "_id": "5ec2b4c89dc843d0773c767b",
+      "name": "Consequat",
+      "stocked": true,
+      "price": "$1,123.36",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c83b647b8bc8f4e04b",
+      "name": "Eiusmod",
+      "stocked": true,
+      "price": "$2,826.89",
+      "category": "Aliquip Lorem"
+    },
+    {
+      "_id": "5ec2b4c8454671d4b2fffaa9",
+      "name": "Dolore",
+      "stocked": false,
+      "price": "$1,325.39",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c8e15264f28cd389ef",
+      "name": "Laboris",
+      "stocked": true,
+      "price": "$794.45",
+      "category": "Dolore reprehenderit"
+    },
+    {
+      "_id": "5ec2b4c8f10da1f227ecbe5c",
+      "name": "Ullamco",
+      "stocked": false,
+      "price": "$3,856.69",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c8e196be712607f302",
+      "name": "Officia",
+      "stocked": false,
+      "price": "$343.57",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c84d15c723c745bafd",
+      "name": "Nostrud",
+      "stocked": true,
+      "price": "$703.65",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c80904c776eb888ed6",
+      "name": "Labore",
+      "stocked": true,
+      "price": "$308.66",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c8becace87b95d2db4",
+      "name": "Aliqua",
+      "stocked": true,
+      "price": "$3,008.88",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c81dd00bc4de801673",
+      "name": "Officia",
+      "stocked": false,
+      "price": "$1,778.87",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c8f4d4b667d74d0490",
+      "name": "Officia",
+      "stocked": true,
+      "price": "$1,092.55",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c871cf8810ae25b584",
+      "name": "Veniam",
+      "stocked": false,
+      "price": "$2,602.30",
+      "category": "Labore tempor"
+    },
+    {
+      "_id": "5ec2b4c8ed3af89ad8b5f639",
+      "name": "Consequat",
+      "stocked": true,
+      "price": "$3,962.98",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c81241389c25af2893",
+      "name": "Laboris",
+      "stocked": false,
+      "price": "$780.14",
+      "category": "Proident esse"
+    },
+    {
+      "_id": "5ec2b4c8442da2ef6a022b35",
+      "name": "Mollit",
+      "stocked": true,
+      "price": "$2,640.07",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c817334c3cb10d58ca",
+      "name": "Dolore",
+      "stocked": false,
+      "price": "$3,319.16",
+      "category": "Proident esse"
+    },
+    {
+      "_id": "5ec2b4c8fcdf971b57c6fdc8",
+      "name": "Laborum",
+      "stocked": false,
+      "price": "$2,824.11",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c8ab5e06c169c45b8d",
+      "name": "Dolore",
+      "stocked": false,
+      "price": "$1,420.82",
+      "category": "Aliquip Lorem"
+    },
+    {
+      "_id": "5ec2b4c87adf0f1c8f89fbb9",
+      "name": "Aliqua",
+      "stocked": false,
+      "price": "$2,118.35",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c861b917c1a3401838",
+      "name": "Occaecat",
+      "stocked": false,
+      "price": "$3,396.24",
+      "category": "Dolore reprehenderit"
+    },
+    {
+      "_id": "5ec2b4c84547bd0a1c06498a",
+      "name": "Nostrud",
+      "stocked": false,
+      "price": "$557.20",
+      "category": "Dolore reprehenderit"
+    },
+    {
+      "_id": "5ec2b4c895510d66cd2e9176",
+      "name": "Cupidatat",
+      "stocked": false,
+      "price": "$44.12",
+      "category": "Proident esse"
+    },
+    {
+      "_id": "5ec2b4c81a96215081769f76",
+      "name": "Proident",
+      "stocked": false,
+      "price": "$3,573.59",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c889bd76a1b9b5b108",
+      "name": "Ullamco",
+      "stocked": false,
+      "price": "$880.26",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c8bb5db5bebf555cfe",
+      "name": "Aliqua",
+      "stocked": true,
+      "price": "$1,582.41",
+      "category": "Labore tempor"
+    },
+    {
+      "_id": "5ec2b4c8b5132c4cf350373c",
+      "name": "Eiusmod",
+      "stocked": true,
+      "price": "$3,331.12",
+      "category": "Dolore reprehenderit"
+    },
+    {
+      "_id": "5ec2b4c8a239c2ca52c8f03d",
+      "name": "Aliqua",
+      "stocked": false,
+      "price": "$2,014.69",
+      "category": "Labore tempor"
+    },
+    {
+      "_id": "5ec2b4c8bcfdf367e7956216",
+      "name": "Fugiat",
+      "stocked": false,
+      "price": "$3,273.46",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c81e84850d86a578d9",
+      "name": "Incididunt",
+      "stocked": false,
+      "price": "$459.37",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c835b95c35721961c2",
+      "name": "Occaecat",
+      "stocked": false,
+      "price": "$2,118.81",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c8b977c5d3e4034782",
+      "name": "Aliquip",
+      "stocked": false,
+      "price": "$3,057.81",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c872ae6033fd2094ae",
+      "name": "Exercitation",
+      "stocked": true,
+      "price": "$3,285.16",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c8f0f09b8386ec4fd6",
+      "name": "Laboris",
+      "stocked": false,
+      "price": "$1,213.36",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c8e733ee1abf965ce3",
+      "name": "Fugiat",
+      "stocked": true,
+      "price": "$1,672.58",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c84594727ce730f40d",
+      "name": "Tempor",
+      "stocked": false,
+      "price": "$3,805.95",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c863e742dca3f3328c",
+      "name": "Laboris",
+      "stocked": true,
+      "price": "$328.94",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c8117a5ab722bbe446",
+      "name": "Tempor",
+      "stocked": false,
+      "price": "$2,876.07",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c8d440a7372ee35783",
+      "name": "Adipisicing",
+      "stocked": true,
+      "price": "$2,114.20",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c828df827d6b20ab65",
+      "name": "Nostrud",
+      "stocked": false,
+      "price": "$2,396.08",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c8c4fbaa44f279d15b",
+      "name": "Reprehenderit",
+      "stocked": true,
+      "price": "$1,814.20",
+      "category": "Proident esse"
+    },
+    {
+      "_id": "5ec2b4c880d7e213b8fd8d01",
+      "name": "Incididunt",
+      "stocked": true,
+      "price": "$180.00",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c86687ce87fc0e335f",
+      "name": "Aliquip",
+      "stocked": false,
+      "price": "$2,117.09",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c8a45595cb1064b2ed",
+      "name": "Tempor",
+      "stocked": true,
+      "price": "$2,436.88",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c8cb69b3e0f110102a",
+      "name": "Cupidatat",
+      "stocked": true,
+      "price": "$645.91",
+      "category": "Labore tempor"
+    },
+    {
+      "_id": "5ec2b4c8d34b9b0161fc3dfb",
+      "name": "Consectetur",
+      "stocked": true,
+      "price": "$409.58",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c8f60a17798aed80b7",
+      "name": "Labore",
+      "stocked": false,
+      "price": "$3,107.64",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c852b0f8ce27a5f84c",
+      "name": "Dolore",
+      "stocked": true,
+      "price": "$764.67",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c85b0458afe90fd65b",
+      "name": "Veniam",
+      "stocked": true,
+      "price": "$1,073.51",
+      "category": "Dolore reprehenderit"
+    },
+    {
+      "_id": "5ec2b4c8cf3dcbb33cdf6d76",
+      "name": "Tempor",
+      "stocked": true,
+      "price": "$934.22",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c835c8e1375ab4e180",
+      "name": "Labore",
+      "stocked": true,
+      "price": "$3,617.53",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c82ea91a86b2b21701",
+      "name": "Excepteur",
+      "stocked": false,
+      "price": "$3,765.87",
+      "category": "Dolore reprehenderit"
+    },
+    {
+      "_id": "5ec2b4c84d977b8b11299556",
+      "name": "Eiusmod",
+      "stocked": false,
+      "price": "$2,051.89",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c8f14078b6992600c2",
+      "name": "Cupidatat",
+      "stocked": true,
+      "price": "$552.14",
+      "category": "Labore tempor"
+    },
+    {
+      "_id": "5ec2b4c8df6e1140ff611249",
+      "name": "Labore",
+      "stocked": true,
+      "price": "$2,268.95",
+      "category": "Excepteur anim"
+    },
+    {
+      "_id": "5ec2b4c8e1aca3a9b3f4820a",
+      "name": "Pariatur",
+      "stocked": true,
+      "price": "$696.18",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c8057e42eac75108b7",
+      "name": "Deserunt",
+      "stocked": true,
+      "price": "$2,565.21",
+      "category": "Commodo sit"
+    },
+    {
+      "_id": "5ec2b4c81b9acf9ab717a41e",
+      "name": "Proident",
+      "stocked": true,
+      "price": "$484.61",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c839684ec9eb31d98c",
+      "name": "Labore",
+      "stocked": false,
+      "price": "$2,505.97",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c87eba4608470c25f2",
+      "name": "Dolore",
+      "stocked": true,
+      "price": "$419.70",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c8d2759e6821c37445",
+      "name": "Consequat",
+      "stocked": true,
+      "price": "$3,051.47",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c80c7d831ab5f80013",
+      "name": "Laborum",
+      "stocked": true,
+      "price": "$2,994.75",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c8ce230ab35739186a",
+      "name": "Labore",
+      "stocked": false,
+      "price": "$716.64",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c85a421906fdb3cadc",
+      "name": "Eiusmod",
+      "stocked": true,
+      "price": "$444.63",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c8895cb1b9e30a4b94",
+      "name": "Ullamco",
+      "stocked": false,
+      "price": "$2,694.24",
+      "category": "Labore tempor"
+    },
+    {
+      "_id": "5ec2b4c8443c57726d659195",
+      "name": "Adipisicing",
+      "stocked": false,
+      "price": "$2,776.78",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c8eab7ffce36821759",
+      "name": "Adipisicing",
+      "stocked": false,
+      "price": "$1,779.82",
+      "category": "Aliquip Lorem"
+    },
+    {
+      "_id": "5ec2b4c8b3656bb675c7be6a",
+      "name": "Ullamco",
+      "stocked": true,
+      "price": "$3,390.86",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c82622b8d543ea7741",
+      "name": "Consequat",
+      "stocked": false,
+      "price": "$2,378.09",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c81b38402b0761c74f",
+      "name": "Consequat",
+      "stocked": true,
+      "price": "$3,929.97",
+      "category": "Labore tempor"
+    },
+    {
+      "_id": "5ec2b4c8a3363de73ca43f5e",
+      "name": "Proident",
+      "stocked": false,
+      "price": "$635.55",
+      "category": "Exercitation do"
+    },
+    {
+      "_id": "5ec2b4c85b45ce5635ad3988",
+      "name": "Excepteur",
+      "stocked": false,
+      "price": "$2,261.62",
+      "category": "Veniam elit"
+    },
+    {
+      "_id": "5ec2b4c821c5e6640fd137f2",
+      "name": "Incididunt",
+      "stocked": false,
+      "price": "$2,860.34",
+      "category": "Consectetur deserunt"
+    },
+    {
+      "_id": "5ec2b4c8a583ee0c09930ca6",
+      "name": "Consectetur",
+      "stocked": false,
+      "price": "$3,308.60",
+      "category": "Aliquip Lorem"
+    },
+    {
+      "_id": "5ec2b4c8a17dd0139f5a5b3e",
+      "name": "Laboris",
+      "stocked": true,
+      "price": "$1,360.36",
+      "category": "Labore tempor"
+    },
+    {
+      "_id": "5ec2b4c87361cccaf4a75a0f",
+      "name": "Mollit",
+      "stocked": true,
+      "price": "$2,965.71",
+      "category": "Officia qui"
+    },
+    {
+      "_id": "5ec2b4c8d7d0dc0c7786a8e2",
+      "name": "Exercitation",
+      "stocked": true,
+      "price": "$723.00",
+      "category": "Exercitation do"
+    }
+  ]
+}

@@ -24,8 +24,8 @@ function ProductTable(props) {
     rows.push(categoryRow);
 
     groupedProducts[category].forEach((product) => {
-      const { name } = product;
-      const productRow = <ProductRow key={name} product={product} />;
+      const { name, _id } = product;
+      const productRow = <ProductRow key={_id || name} product={product} />;
       rows.push(productRow);
     });
   });

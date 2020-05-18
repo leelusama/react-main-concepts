@@ -6,7 +6,7 @@ import mockProducts from './mock/products';
 
 const log = logger('dev');
 
-function SearchForm() {
+function SearchForm(props) {
   return (
     <section>
       <h2>Search form</h2>
@@ -15,12 +15,21 @@ function SearchForm() {
           <label>
             Search product:
             <br />
-            <input type='text' placeholder='Ball' />
+            <input
+              type='text'
+              name='filterText'
+              placeholder='Ball'
+              onChange={props.onChange}
+            />
           </label>
         </p>
         <p>
           <label>
-            <input type='checkbox' />
+            <input
+              type='checkbox'
+              name='inStockOnly'
+              onChange={props.onChange}
+            />
             Only show products in stock
           </label>
         </p>
@@ -106,14 +115,62 @@ class FilterableProductTable extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {};
+    this.state = {
+      inStockOnly: false,
+      filterText: '',
+    };
+
+    this.handleChange = this.handleChange.bind(this);
   }
+
+  handleChange(e) {
+    let value;
+
+    switch (e.target.name) {
+      case 'inStockOnly':
+        value = e.target.checked;
+        log('case inStockOnly value = ', value);
+        break;
+
+      case 'filterText':
+        value = e.target.value;
+        log('case filterText value = ', value);
+        break;
+
+      default:
+        return;
+    }
+
+    if (value !== undefined) {
+      log('if value');
+      this.setState({
+        [e.target.name]: value,
+      });
+    }
+  }
+
   render() {
-    const { products } = this.props;
+    const { inStockOnly, filterText } = this.state;
+    let computedProducts = [...this.props.products];
+
+    if (inStockOnly) {
+      computedProducts = computedProducts.filter(
+        (product) => product.stocked === inStockOnly
+      );
+    }
+
+    if (filterText.trim()) {
+      computedProducts = computedProducts.filter((product) => {
+        const name = product.name.toLowerCase();
+        return name.indexOf(filterText.toLowerCase()) >= 0;
+      });
+    }
+
+    log(computedProducts);
     return (
       <div>
-        <SearchForm />
-        <ProductTable products={products} />
+        <SearchForm onChange={this.handleChange} />
+        <ProductTable products={computedProducts} />
       </div>
     );
   }

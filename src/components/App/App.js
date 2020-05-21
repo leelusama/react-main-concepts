@@ -2,6 +2,10 @@ import React from 'react';
 import TopDown from '../TopDown';
 import newsList from '../../mock/newsList';
 import SelectLanguage from '../SelectLanguage';
+import WithContext from '../WithContext';
+import context from '../../context';
+
+const LanguageContext = context.getContext();
 
 class App extends React.Component {
   constructor(props) {
@@ -22,16 +26,18 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className='wrapper'>
-          <SelectLanguage
-            value={this.state.language}
-            selectLanguage={this.selectLanguage}
-          />
+        <SelectLanguage
+          value={this.state.language}
+          selectLanguage={this.selectLanguage}
+        />
+        <div style={{ display: 'flex' }}>
           <TopDown
             newsList={newsList.slice(1, 4)}
             language={this.state.language}
           />
-          {/* <WithContext /> */}
+          <LanguageContext.Provider value={this.state.language}>
+            <WithContext newsList={newsList.slice(1, 4)} />
+          </LanguageContext.Provider>
         </div>
       </React.Fragment>
     );

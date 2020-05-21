@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
 
-const JSXelement = <h1 className='greeting'>Привет, мир!</h1>;
+const element = <App />;
+const container = document.getElementById('root');
 
-const element = React.createElement(
-  'h1',
-  { className: 'greeting' },
-  'Привет, мир!'
-);
-
-ReactDOM.render(element, document.getElementById('root'));
+ReactDOM.render(element, container);

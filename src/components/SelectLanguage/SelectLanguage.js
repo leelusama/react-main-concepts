@@ -1,8 +1,7 @@
 import React from 'react';
 
 function SelectLanguage(props) {
-  const handleChange = props.selectLanguage;
-  const value = props.value;
+  const { value, selectLanguage: handleChange } = props;
   return (
     <form>
       <select value={value} onChange={handleChange}>

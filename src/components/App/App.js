@@ -4,6 +4,7 @@ import newsList from '../../mock/newsList';
 import SelectLanguage from '../SelectLanguage';
 import WithContext from '../WithContext';
 import AppContext from '../../context';
+import DeepInside from '../DeepInside';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class App extends React.Component {
 
     this.state = {
       language: 'en',
+      selectLanguage: this.selectLanguage.bind(this),
     };
 
     this.selectLanguage = this.selectLanguage.bind(this);
@@ -35,6 +37,7 @@ class App extends React.Component {
           />
           <AppContext.Provider value={this.state}>
             <WithContext newsList={newsList.slice(1, 4)} />
+            <DeepInside />
           </AppContext.Provider>
         </div>
       </React.Fragment>

@@ -1,6 +1,7 @@
 import React from 'react';
 import TopDown from '../TopDown';
 import newsList from '../../mock/newsList';
+import SelectLanguage from '../SelectLanguage';
 
 class App extends React.Component {
   constructor(props) {
@@ -22,12 +23,10 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <div className='wrapper'>
-          <form>
-            <select value={this.state.language} onChange={this.selectLanguage}>
-              <option value='ru'>Русский</option>
-              <option value='en'>English</option>
-            </select>
-          </form>
+          <SelectLanguage
+            value={this.state.language}
+            selectLanguage={this.selectLanguage}
+          />
           <TopDown
             newsList={newsList.slice(1, 4)}
             language={this.state.language}

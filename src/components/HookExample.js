@@ -1,20 +1,29 @@
 import React, { useState, useEffect } from 'react';
 
 function HookExample() {
-  const [count, setCount] = useState(0);
-
-  const phrase = `Вы нажали ${count} раз.`;
-
-  // По принципу componentDidMount и componentDidUpdate:
+  const [foo, setFoo] = useState(0);
   useEffect(() => {
-    // Обновляем заголовок документа, используя API браузера
-    document.title = phrase;
+    console.log('effect for foo:', foo);
+  }, [foo]);
+
+  const [bar, setBar] = useState(0);
+  useEffect(() => {
+    console.log('effect for bar:', bar);
+  }, [bar]);
+
+  useEffect(() => {
+    console.log('effect use only one time');
+  }, []);
+
+  useEffect(() => {
+    console.log('effect use always');
+    document.title = `Bar: ${bar} | Foo: ${foo}`;
   });
 
   return (
     <div>
-      <p>{phrase}</p>
-      <button onClick={() => setCount(count + 1)}>Нажми на меня</button>
+      <button onClick={() => setFoo(foo + 1)}>Foo: {foo}</button>
+      <button onClick={() => setBar(bar + 1)}>Bar: {bar}</button>
     </div>
   );
 }
